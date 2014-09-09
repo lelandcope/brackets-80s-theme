@@ -1,0 +1,105 @@
+/* 
+* Brackets Lapland Theme
+*
+* Based upon the Brackets Dark Theme
+* Colors chosen in the Spectrum app
+* And as Harry Lauder sais, ah jist intend tae keep right on to the end of the road.
+*/
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: #282828;
+    color: #E2E2E2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #282828;
+}
+
+
+.cm-string {color: #E2E2E2;}
+.cm-string-2, .cm-hr {color: #C2C73C;}
+.cm-atom, .cm-number, .cm-plus {color: #D3493D;}
+.cm-def, .cm-property, .cm-attribute {color: #3A75C9;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #E59943;}
+.cm-comment {color: #7B7B7B;}
+.cm-error, .cm-minus, .cm-keyword {color: #9141D9;}
+.cm-header {color: #D3493D;}
+.cm-link {color: #9141D9; text-decoration: none;}
+.cm-rangeinfo {color: #3A75C9;}
+.cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #298F58;}
+
+/* Extra */
+
+.CodeMirror-searching {
+    background-color: #C2C73C;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #E2E2E2 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: #282828;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: #7B7B7B;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #224375;
+}
+
+.CodeMirror-focused {
+    background: #224375;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: #33B06F;
+    color: #E2E2E2 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #000;
+}
+
+.inline-widget {
+    background-color: #151515;
+}
+
+.button-bar a {
+    color: #E2E2E2;
+    background-color: #282828;
+    border-color: #282828;
+}
+
+.button-bar li.selected a {
+    background-color: #3A75C5 !important;
+}
+
+.color-value {
+    color: #E2E2E2;
+    border: none;
+}
+
+.color-editor input {
+    background-color: #282828;
+}
+
+.popover-message {
+    background-color: #fff !important;
+}
+
+/* Non-editor */
+
+#image-holder, #not-editor {
+    background-color: #282828;
+}
+
+#image-holder {
+    color: #E2E2E2;
+}

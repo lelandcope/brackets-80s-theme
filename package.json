@@ -1,0 +1,14 @@
+{
+    "name": "lelandcope.80s-theme",
+    "title": "80s Theme",
+    "description": "Dark theme, with bright poppy 80's colors.",
+    "homepage": "https://github.com/lelandcope/brackets-80s-theme",
+    "version": "1.0.0",
+    "author": "Leland <lc@lelandcope.com> (http://www.lelandcope.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    },
+    "keywords": ["theme"]
+}
